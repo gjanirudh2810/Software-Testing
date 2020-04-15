@@ -1,0 +1,799 @@
+{
+  "id": "5a6f891a-3543-46be-94e5-ee679f3584d2",
+  "version": "2.0",
+  "name": "a4",
+  "url": "http://newtours.demoaut.com",
+  "tests": [{
+    "id": "70839440-47e1-443b-a72e-fa6363009d42",
+    "name": "Tc 1 Register",
+    "commands": [{
+      "id": "bc442a30-c163-42d9-a5d2-bacedba92ca4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc1475e4-c2fe-4ee9-a622-8c4bc912bce2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1e60f78-3031-4715-a80f-87552c49c993",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=REGISTER",
+      "targets": [
+        ["linkText=REGISTER", "linkText"],
+        ["css=.mouseOver > a", "css:finder"],
+        ["xpath=//a[contains(text(),'REGISTER')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mercuryregister.php')]", "xpath:href"],
+        ["xpath=//tr[2]/td/table/tbody/tr/td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'REGISTER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "838156a3-c2eb-45cb-972a-6e93cf8d8df0",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstName",
+      "targets": [
+        ["name=firstName", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='firstName']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f5c4f10-5d31-42eb-965a-0bd86bd3b397",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstName",
+      "targets": [
+        ["name=firstName", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='firstName']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "anirudh"
+    }, {
+      "id": "3130dfc3-4b6f-4d65-abe3-724604fbee21",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastName",
+      "targets": [
+        ["name=lastName", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='lastName']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "gj"
+    }, {
+      "id": "303f4d65-d1e1-4957-aa94-01c009494e4b",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=tr:nth-child(4) > td > input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "f6f9c8eb-3fbb-4f5d-acef-b8d69489d49d",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["name=userName", "name"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "gjani@gmail.com"
+    }, {
+      "id": "197dd656-9b6d-4b00-beb9-11f375232fcc",
+      "comment": "",
+      "command": "type",
+      "target": "name=address1",
+      "targets": [
+        ["name=address1", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='address1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "b6feb986-c7d5-47c0-8b56-3e4be7c764e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=address2",
+      "targets": [
+        ["name=address2", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='address2']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "efaf6294-c779-4f38-a28c-d8e847f09700",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": "tampa"
+    }, {
+      "id": "3da67ef2-aa7f-4458-9769-95a6a3570772",
+      "comment": "",
+      "command": "type",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": "fl"
+    }, {
+      "id": "e4e8eef4-3ef8-40d5-91d2-94b6d9973f36",
+      "comment": "",
+      "command": "type",
+      "target": "name=postalCode",
+      "targets": [
+        ["name=postalCode", "name"],
+        ["css=tr:nth-child(11) input", "css:finder"],
+        ["xpath=//input[@name='postalCode']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": "33612"
+    }, {
+      "id": "a7358c06-074f-47a8-a33d-e4df3edf92c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//tr[14]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ani"
+    }, {
+      "id": "ff28cb2a-a8aa-4ca8-ad17-cfd3afe2b0b6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(15) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[15]/td[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "65cf7ead-ff23-49e1-a748-759dde9d2edc",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirmPassword",
+      "targets": [
+        ["name=confirmPassword", "name"],
+        ["css=tr:nth-child(16) input", "css:finder"],
+        ["xpath=//input[@name='confirmPassword']", "xpath:attributes"],
+        ["xpath=//tr[16]/td[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "63b7f786-6e93-4f66-8ca4-fe4e41694321",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//tr[18]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9f5f51e-e347-4f09-a6ed-7df3b7fd29b8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=SIGN-OFF",
+      "targets": [
+        ["linkText=SIGN-OFF", "linkText"],
+        ["css=.mouseOver > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SIGN-OFF')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mercurysignoff.php')]", "xpath:href"],
+        ["xpath=//tr[2]/td/table/tbody/tr/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SIGN-OFF')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ca5a8ef2-f75f-4a13-8769-9db077ebe42e",
+    "name": "Tc 2 One Way Trip",
+    "commands": [{
+      "id": "f6e4c4e8-aba6-4fd1-ab44-748410627d57",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fb25e8a-2892-4bf8-977e-d13edc90c5aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99e9a373-5981-4467-84bb-909771bc555f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flights",
+      "targets": [
+        ["linkText=Flights", "linkText"],
+        ["css=.mouseOver a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flights')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mercuryreservation.php')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "477fee1a-edac-45e4-9180-b45ee2f8f975",
+      "comment": "",
+      "command": "click",
+      "target": "css=font:nth-child(1) > input:nth-child(2)",
+      "targets": [
+        ["css=font:nth-child(1) > input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='tripType'])[2]", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "248b433f-982b-46d6-a063-ddd79f43a7b7",
+      "comment": "",
+      "command": "click",
+      "target": "name=fromPort",
+      "targets": [
+        ["name=fromPort", "name"],
+        ["css=tr:nth-child(4) > td > select", "css:finder"],
+        ["xpath=//select[@name='fromPort']", "xpath:attributes"],
+        ["xpath=//td[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Acapulco\nFrankfurt\nLondon\nNew York\nParis\nPortland\nSan Francisco\nSeattle\nSydney\nZurich')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98cd8527-79e5-4d38-ade4-f22fd01eaa1f",
+      "comment": "",
+      "command": "select",
+      "target": "name=fromPort",
+      "targets": [],
+      "value": "label=London"
+    }, {
+      "id": "0c46c6db-387b-4272-953a-75fe101d80c3",
+      "comment": "",
+      "command": "click",
+      "target": "name=toPort",
+      "targets": [
+        ["name=toPort", "name"],
+        ["css=tr:nth-child(6) select", "css:finder"],
+        ["xpath=//select[@name='toPort']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad5aa75a-3e97-4e05-a2ce-d957f93d72f4",
+      "comment": "",
+      "command": "select",
+      "target": "name=toPort",
+      "targets": [],
+      "value": "label=New York"
+    }, {
+      "id": "ede878a1-1acb-4fd4-8160-92d89f66df4c",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=tr:nth-child(7) b",
+      "targets": [
+        ["css=tr:nth-child(7) b", "css:finder"],
+        ["xpath=//tr[7]/td/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Returning:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a00f0919-5624-4adb-a6f8-1e1a44a237b8",
+    "name": "Tc 3 Flight Selection Verification",
+    "commands": [{
+      "id": "b44c10cc-d880-433a-99fe-1a9e275aa8ac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b170b510-da82-4b07-bbd3-ef88174bfcfd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7a4c73c-9d17-4c96-b8d5-3c3013101de8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flights",
+      "targets": [
+        ["linkText=Flights", "linkText"],
+        ["css=.mouseOver a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flights')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mercuryreservation.php')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c522bfa-c904-4466-9e00-dc8d090ac037",
+      "comment": "",
+      "command": "click",
+      "target": "name=fromPort",
+      "targets": [
+        ["name=fromPort", "name"],
+        ["css=tr:nth-child(4) > td > select", "css:finder"],
+        ["xpath=//select[@name='fromPort']", "xpath:attributes"],
+        ["xpath=//td[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Acapulco\nFrankfurt\nLondon\nNew York\nParis\nPortland\nSan Francisco\nSeattle\nSydney\nZurich')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2daf0477-9160-4b59-9917-21b156f7ba06",
+      "comment": "",
+      "command": "select",
+      "target": "name=fromPort",
+      "targets": [],
+      "value": "label=London"
+    }, {
+      "id": "6e86cd36-f775-4f30-9fb7-98e00a9cada1",
+      "comment": "",
+      "command": "click",
+      "target": "name=toPort",
+      "targets": [
+        ["name=toPort", "name"],
+        ["css=tr:nth-child(6) select", "css:finder"],
+        ["xpath=//select[@name='toPort']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08d69416-f7cb-401b-b939-ae7eed45d210",
+      "comment": "",
+      "command": "select",
+      "target": "name=toPort",
+      "targets": [],
+      "value": "label=New York"
+    }, {
+      "id": "1706932d-c01a-4563-bfbc-12f988c7ca83",
+      "comment": "",
+      "command": "click",
+      "target": "name=toMonth",
+      "targets": [
+        ["name=toMonth", "name"],
+        ["css=tr:nth-child(7) select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='toMonth']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50a914bd-b2c6-4f92-8b41-da327381a00c",
+      "comment": "",
+      "command": "select",
+      "target": "name=toMonth",
+      "targets": [],
+      "value": "label=May"
+    }, {
+      "id": "1041b1f1-c887-4e3d-b4df-d4e84211a944",
+      "comment": "",
+      "command": "click",
+      "target": "css=font > font:nth-child(2)",
+      "targets": [
+        ["css=font > font:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec749f99-0dce-471c-8ccf-2a7b37fed82c",
+      "comment": "",
+      "command": "click",
+      "target": "css=font:nth-child(2) > input:nth-child(2)",
+      "targets": [
+        ["css=font:nth-child(2) > input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='servClass'])[2]", "xpath:attributes"],
+        ["xpath=//font/font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2851f925-ed78-4b9b-9ac6-e60eba701522",
+      "comment": "",
+      "command": "click",
+      "target": "name=findFlights",
+      "targets": [
+        ["name=findFlights", "name"],
+        ["css=td > input", "css:finder"],
+        ["xpath=//input[@name='findFlights']", "xpath:attributes"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5618d0ba-56b1-4fc3-9d35-a6a747f79e5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(9) tr:nth-child(5) input",
+      "targets": [
+        ["css=table:nth-child(9) tr:nth-child(5) input", "css:finder"],
+        ["xpath=(//input[@name='outFlight'])[2]", "xpath:attributes"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19401436-1776-4a25-8bd6-6ca80c4c21a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(9) tr:nth-child(5) b",
+      "targets": [
+        ["css=table:nth-child(9) tr:nth-child(5) b", "css:finder"],
+        ["xpath=//tr[5]/td[2]/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Blue Skies Airlines 361')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee575c80-6002-4565-8bfb-5764d7fb596d",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=table:nth-child(9) tr:nth-child(5) b",
+      "targets": [
+        ["css=table:nth-child(9) tr:nth-child(5) b", "css:finder"],
+        ["xpath=//tr[5]/td[2]/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Blue Skies Airlines 361')]", "xpath:innerText"]
+      ],
+      "value": "v1"
+    }, {
+      "id": "c2bfb7f1-2cc2-462c-8b73-38c343127e64",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(10) tr:nth-child(7) input",
+      "targets": [
+        ["css=table:nth-child(10) tr:nth-child(7) input", "css:finder"],
+        ["xpath=(//input[@name='inFlight'])[3]", "xpath:attributes"],
+        ["xpath=//table[2]/tbody/tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72c40143-e162-4791-ac52-ece385bf693e",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(10) tr:nth-child(7) input",
+      "targets": [
+        ["css=table:nth-child(10) tr:nth-child(7) input", "css:finder"],
+        ["xpath=(//input[@name='inFlight'])[3]", "xpath:attributes"],
+        ["xpath=//table[2]/tbody/tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "865d7ca6-b76e-47bd-a843-d7097c1a9584",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=table:nth-child(10) tr:nth-child(7) input",
+      "targets": [
+        ["css=table:nth-child(10) tr:nth-child(7) input", "css:finder"],
+        ["xpath=(//input[@name='inFlight'])[3]", "xpath:attributes"],
+        ["xpath=//table[2]/tbody/tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d28cb62-5b83-43df-ae75-e8ae9539c9aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(10) tr:nth-child(7) b",
+      "targets": [
+        ["css=table:nth-child(10) tr:nth-child(7) b", "css:finder"],
+        ["xpath=//table[2]/tbody/tr[7]/td[2]/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Pangea Airlines 632')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17602bef-8ece-40fd-b854-38f28b51191e",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=table:nth-child(10) tr:nth-child(7) b",
+      "targets": [
+        ["css=table:nth-child(10) tr:nth-child(7) b", "css:finder"],
+        ["xpath=//table[2]/tbody/tr[7]/td[2]/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Pangea Airlines 632')]", "xpath:innerText"]
+      ],
+      "value": "v2"
+    }, {
+      "id": "3293e8ea-a775-429a-aba7-b69e6af300e2",
+      "comment": "",
+      "command": "click",
+      "target": "name=reserveFlights",
+      "targets": [
+        ["name=reserveFlights", "name"],
+        ["css=p > input", "css:finder"],
+        ["xpath=//input[@name='reserveFlights']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7050d153-5973-4bd7-a497-e7af88909a10",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.data_left:nth-child(1) > font > b",
+      "targets": [
+        ["css=.data_left:nth-child(1) > font > b", "css:finder"],
+        ["xpath=//td/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Blue Skies Airlines 361')]", "xpath:innerText"]
+      ],
+      "value": "57,6"
+    }, {
+      "id": "eb8eeaab-8a72-4a93-a81d-087cc77715ea",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.data_left:nth-child(1) > font > b",
+      "targets": [
+        ["css=.data_left:nth-child(1) > font > b", "css:finder"],
+        ["xpath=//td/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Blue Skies Airlines 361')]", "xpath:innerText"]
+      ],
+      "value": "57,6"
+    }, {
+      "id": "e50df5b3-9fcb-4fce-a204-9f921b00f5a6",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.data_left:nth-child(1) > font > b",
+      "targets": [
+        ["css=.data_left:nth-child(1) > font > b", "css:finder"],
+        ["xpath=//td/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Blue Skies Airlines 361')]", "xpath:innerText"]
+      ],
+      "value": "57,6"
+    }, {
+      "id": "1d9f1ff4-5f8e-42b0-88e9-cd4e256bab66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.data_left:nth-child(1) > font > b",
+      "targets": [
+        ["css=.data_left:nth-child(1) > font > b", "css:finder"],
+        ["xpath=//td/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Blue Skies Airlines 361')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0f86f6-6c71-4242-b5a8-a91301ab5c5b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.data_left:nth-child(1) > font > b",
+      "targets": [
+        ["css=.data_left:nth-child(1) > font > b", "css:finder"],
+        ["xpath=//td/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Blue Skies Airlines 361')]", "xpath:innerText"]
+      ],
+      "value": "${v1}"
+    }, {
+      "id": "f1090bb8-91d7-46e7-892b-2a5f84950122",
+      "comment": "",
+      "command": "click",
+      "target": "css=font > font > font > b",
+      "targets": [
+        ["css=font > font > font > b", "css:finder"],
+        ["xpath=//font/font/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Pangea Airlines 632')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe19aef5-3d96-469d-a64b-91764a9e191b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=font > font > font > b",
+      "targets": [
+        ["css=font > font > font > b", "css:finder"],
+        ["xpath=//font/font/font/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Pangea Airlines 632')]", "xpath:innerText"]
+      ],
+      "value": "${v2}"
+    }]
+  }, {
+    "id": "063b2537-73c5-4e11-90fa-dfcb28fd2a81",
+    "name": "Tc 4 Flight Preference",
+    "commands": [{
+      "id": "c4396cb5-7197-477d-8e95-47c9142704d2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77c758f3-d980-44f0-b5d1-eaf3b836ef9f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dd1a48e-6b77-40c7-8f78-b5a7f2dafc25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flights",
+      "targets": [
+        ["linkText=Flights", "linkText"],
+        ["css=.mouseOver a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flights')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mercuryreservation.php')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7a7fa56-ca59-49b5-903c-e3c5cf8d503c",
+      "comment": "",
+      "command": "click",
+      "target": "name=fromPort",
+      "targets": [
+        ["name=fromPort", "name"],
+        ["css=tr:nth-child(4) > td > select", "css:finder"],
+        ["xpath=//select[@name='fromPort']", "xpath:attributes"],
+        ["xpath=//td[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Acapulco\nFrankfurt\nLondon\nNew York\nParis\nPortland\nSan Francisco\nSeattle\nSydney\nZurich')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f058e684-5f38-43d4-8f03-80b9b8b88bcb",
+      "comment": "",
+      "command": "select",
+      "target": "name=fromPort",
+      "targets": [],
+      "value": "label=London"
+    }, {
+      "id": "5c97f581-650c-4507-9379-e292b7718f60",
+      "comment": "",
+      "command": "click",
+      "target": "name=toPort",
+      "targets": [
+        ["name=toPort", "name"],
+        ["css=tr:nth-child(6) select", "css:finder"],
+        ["xpath=//select[@name='toPort']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a426d118-8d23-48a0-818b-c19cfaeb218d",
+      "comment": "",
+      "command": "select",
+      "target": "name=toPort",
+      "targets": [],
+      "value": "label=New York"
+    }, {
+      "id": "6be41fb9-ec10-4bf8-aa0b-d5793a4a7850",
+      "comment": "",
+      "command": "click",
+      "target": "name=toMonth",
+      "targets": [
+        ["name=toMonth", "name"],
+        ["css=tr:nth-child(7) select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='toMonth']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44cf40df-5b26-4989-9ff8-2f38cedebee1",
+      "comment": "",
+      "command": "select",
+      "target": "name=toMonth",
+      "targets": [],
+      "value": "label=May"
+    }, {
+      "id": "758872e1-44bf-4053-b635-d85ca61f319b",
+      "comment": "",
+      "command": "click",
+      "target": "css=font:nth-child(2) > input:nth-child(2)",
+      "targets": [
+        ["css=font:nth-child(2) > input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='servClass'])[2]", "xpath:attributes"],
+        ["xpath=//font/font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c2a05b1-2ece-4ea7-9d3d-0ee6b5a828c2",
+      "comment": "",
+      "command": "click",
+      "target": "name=airline",
+      "targets": [
+        ["name=airline", "name"],
+        ["css=tr:nth-child(10) select", "css:finder"],
+        ["xpath=//select[@name='airline']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20ae3320-4d62-48ec-8369-f5b8a196b55e",
+      "comment": "",
+      "command": "select",
+      "target": "name=airline",
+      "targets": [],
+      "value": "label=Blue Skies Airlines"
+    }, {
+      "id": "db618542-1a0f-4a71-b8f1-1b85ef7e6ae8",
+      "comment": "",
+      "command": "click",
+      "target": "name=findFlights",
+      "targets": [
+        ["name=findFlights", "name"],
+        ["css=td > input", "css:finder"],
+        ["xpath=//input[@name='findFlights']", "xpath:attributes"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ceaca55-9621-494b-8d13-97a812d85025",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=table:nth-child(9) tr:nth-child(7) input",
+      "targets": [
+        ["css=table:nth-child(9) tr:nth-child(7) input", "css:finder"],
+        ["xpath=(//input[@name='outFlight'])[3]", "xpath:attributes"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf48b63-aaa8-4def-bfff-5075d214efa3",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=table:nth-child(9) tr:nth-child(9) > .frame_action_xrows",
+      "targets": [
+        ["css=table:nth-child(9) tr:nth-child(9) > .frame_action_xrows", "css:finder"],
+        ["xpath=//tr[9]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b679d024-1358-4096-a07f-757e157ed14d",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=table:nth-child(10) tr:nth-child(7) > .frame_action_xrows",
+      "targets": [
+        ["css=table:nth-child(10) tr:nth-child(7) > .frame_action_xrows", "css:finder"],
+        ["xpath=//table[2]/tbody/tr[7]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f746ab0-4188-45d0-93ca-c715fda3e4ed",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=table:nth-child(10) tr:nth-child(9) > .frame_action_xrows",
+      "targets": [
+        ["css=table:nth-child(10) tr:nth-child(9) > .frame_action_xrows", "css:finder"],
+        ["xpath=//table[2]/tbody/tr[9]/td", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "be591788-ff18-4c2d-8238-d1cd5ef25bbd",
+    "name": "Assignment 4",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["70839440-47e1-443b-a72e-fa6363009d42", "ca5a8ef2-f75f-4a13-8769-9db077ebe42e", "a00f0919-5624-4adb-a6f8-1e1a44a237b8", "063b2537-73c5-4e11-90fa-dfcb28fd2a81"]
+  }],
+  "urls": ["http://newtours.demoaut.com/"],
+  "plugins": []
+}
